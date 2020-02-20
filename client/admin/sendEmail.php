@@ -13,7 +13,7 @@ if (isset($_POST['submitEmail'])) {
 
 // Mail Transport
     $transport = new Swift_SmtpTransport('smtp.gmail.com', 465, 'ssl');
-    $transport->setUsername('novascotiacricketassociation@gmail.com')->setPassword('fSUN8LGR1Xj8');
+    $transport->setUsername('novascotiacricketassociation@gmail.com')->setPassword('');
 
 // Mailer
     $mailer = new Swift_Mailer($transport);
